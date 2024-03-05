@@ -13,7 +13,7 @@ public class ContaTerminal {
    
    System.out.println("Por favor, digite o número da Conta");
    int numero = scanner.nextInt();
-   scanner.nextLine(); 
+   scanner.nextLine(); // cometário
    
    System.out.println("Por favor, digite o Nome do Cliente:");
    String nomeCliente = scanner.nextLine();
